@@ -1,0 +1,44 @@
+
+===============School Management System==============
+
+====>Database: school_management_system
+
+ 1. students (Data Table) (id, name, roll, class, phone, email, address)
+ 2. teachers (Data Table) (id, name, designation, phone, email, address)
+ 3. staffs (Data Table) (id, name, designation, phone, email, address)
+
+
+ ==============CRUD===============
+
+ C = Create
+ R = Read
+ U = Update
+ D = Delete
+
+ Application => 60-70% (CRUD)=>40-30% (Business Logic)
+
+
+ =================SQL================
+ S = Structured
+ Q = Query
+ L = Language
+
+ Create=>
+
+ INSERT INTO students (name, roll, class, phone, email, address) VALUES ('Mohammad', 1, 10, '01300675110', 'jalammollah111@gmail.com', 'Shibpur, Narsingdi');
+ INSERT INTO students (name, roll, class, phone, email, address) VALUES ('Monem Shahriar', 2, 7, '01300675111', 'monem1998@gmail.com', 'Mirpur, Dhaka');
+ INSERT INTO students (name, roll, class, phone, email, address) VALUES ('Mysha', 3, 6, '01300675112', 'mysha2006@gmail.com', 'Uttara, Dhaka');
+ INSERT INTO students (name, roll, class, phone, email, address) VALUES ('Samiha', 4, 6, '01300675113', 'samiha2006@gmail.com', 'Uttara, Dhaka');
+ INSERT INTO students (name, roll, class, phone, email, address) VALUES ('Kamrul Hassan', 7, 9, '01817662973', 'hassan@gmail.com', 'Dhanmondi, Dhaka');
+ INSERT INTO students (name, roll, class, phone, email, address) VALUES ('Masudur Rahman', 10, 8, '01817662111', 'masud12@gmail.com', 'Kolabagan, Dhaka');
+ INSERT INTO students (name, roll, class, phone, email, address) VALUES ('Mahbubur Rahman', 5, 10, '01817662111', 'mahbub@gmail.com', 'Kolabagan, Dhaka');
+
+ INSERT INTO teachers (name, designation, phone, email, address) VALUES ('Mahmuda Khanam', 'Head Teacher', '01817093165', 'mahmuda1973@gmail.com', 'Shibpur,Narsingdi');
+ INSERT INTO teachers (name, designation, phone, email, address) VALUES ('Zahirul Islam', 'Assistant Head Teacher', '01814692711', 'jahirul@gmail.com', 'Joydebpur, Gazipur');
+ INSERT INTO teachers (name, designation, phone, email, address) VALUES ('Jasim Uddin', 'Assistant Teacher', '01814692712', 'jasim111@gmail.com', 'Mirpur, Dhaka');
+ INSERT INTO teachers (name, designation, phone, email, address) VALUES ('Shahidullah', 'Assistant Teacher', '01814692713', 'shahid111@gmail.com', 'Joydebpur, Gazipur');
+ INSERT INTO teachers (name, designation, phone, email, address) VALUES ('Jibon Chandra', 'Physical Teacher', '01814692700', 'chandra88@gmail.com', 'Uttara, Dhaka');
+
+ INSERT INTO staffs (name, designation, phone, email, address) VALUES ('Abdul Khaleque', 'Personal Assistant', '01717823901', 'abdul77@gmail.com', 'Shibpur,Narsingdi');
+ INSERT INTO staffs (name, designation, phone, email, address) VALUES ('Babul Ahmed', 'Security Guard', '01717823902', 'babul211@gmail.com', 'Joydebpur, Gazipur');
+ INSERT INTO staffs (name, designation, phone, email, address) VALUES ('Amena Akter', 'Swipper', '01717812670', 'amena@gmail.com', 'Joydebpur, Gazipur');
